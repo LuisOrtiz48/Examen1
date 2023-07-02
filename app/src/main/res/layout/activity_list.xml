@@ -10,7 +10,7 @@
     <ListView
         android:id="@+id/ListaF"
         android:layout_width="409dp"
-        android:layout_height="684dp"
+        android:layout_height="652dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp" />
 
