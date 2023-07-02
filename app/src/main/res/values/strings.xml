@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Examen TLenguajes</string>
+    <string name="app_titulo">Menu Principal</string>
+    <string name="app_titulof">Agregar Futbolista</string>
+    <string name="app_nombres">Ingrese el nombre</string>
+    <string name="app_apellidos">Ingrese el apellido</string>
+    <string name="app_pais">Ingrese el pais</string>
+    <string name="app_posicion">Ingrese la posicion del jugador</string>
+    <string name="app_edad">Ingrese la edad</string>
+</resources>
