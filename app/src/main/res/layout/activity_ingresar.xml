@@ -13,9 +13,17 @@
         android:layout_height="wrap_content"
         android:text="@string/app_titulof"
         android:textAlignment="center"
-        android:textColor="#2196F3"
+        android:textColor="#C00CE8"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_id"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/txtnombres"
@@ -32,4 +40,57 @@
         android:ems="10"
         android:hint="@string/app_apellidos"
         android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtvpais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_titulopais"
+        android:textAlignment="textStart"
+        android:textColor="#890CF2"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/cmdpais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pais_options" />
+
+    <TextView
+        android:id="@+id/txtvposicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_posicion"
+        android:textColor="#890CF2"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/cmdposicion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/posicion_options" />
+
+    <EditText
+        android:id="@+id/txtedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/app_edad"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btningresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btningresar"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnivolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_btnvolver"
+        android:textStyle="bold" />
 </LinearLayout>

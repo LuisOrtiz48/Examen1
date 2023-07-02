@@ -7,4 +7,25 @@
     <string name="app_pais">Ingrese el pais</string>
     <string name="app_posicion">Ingrese la posicion del jugador</string>
     <string name="app_edad">Ingrese la edad</string>
+    <string name="app_titulopais">Ingrese el pais de origen</string>
+    <string name="app_tituloposicion">Ingrese la posicion del jugador</string>
+    <string name="app_id">Id</string>
+    <string name="app_btningresar">Ingresar</string>
+    <string name="app_btnlist">Lista</string>
+    <string name="app_btnvolver">Menu Principal</string>
+
+    <string-array name="pais_options">
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Qatar</item>
+        <item>Haiti</item>
+    </string-array>
+
+    <string-array name="posicion_options">
+        <item>Portero</item>
+        <item>Central</item>
+        <item>Mediocampista</item>
+        <item>Delantero</item>
+    </string-array>
+
 </resources>

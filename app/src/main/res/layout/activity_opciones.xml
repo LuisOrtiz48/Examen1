@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".ActivityOpciones">
 
     <TextView
@@ -15,6 +16,24 @@
         android:textAlignment="center"
         android:textColor="#2196F3"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/btnoptingresar"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="@string/app_btningresar"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="@string/app_btnlist"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="374dp" />
 
 </LinearLayout>
