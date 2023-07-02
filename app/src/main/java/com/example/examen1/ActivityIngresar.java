@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.viewmodel.CreationExtras;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +20,7 @@ public class ActivityIngresar extends AppCompatActivity {
 
     EditText id, nombres, apellidos, edad;
     Spinner pais, posicion;
-    Button btningresar;
+    Button btningresar, btnivolver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,11 @@ public class ActivityIngresar extends AppCompatActivity {
         btningresar.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) { insertar_datos();}
+        });
+
+        btnivolver.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) { volver_menu();}
         });
 
     }
@@ -66,6 +72,12 @@ public class ActivityIngresar extends AppCompatActivity {
 
         ClearScreen();
 
+    }
+
+    private void volver_menu()
+    {
+        Intent intent = new Intent(this, ActivityOpciones.class);
+        startActivity(intent);
     }
 
     private void ClearScreen()

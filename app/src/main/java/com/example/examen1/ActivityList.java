@@ -2,10 +2,13 @@ package com.example.examen1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.examen1.Configuracion.ConfigDB;
@@ -21,6 +24,8 @@ public class ActivityList extends AppCompatActivity
     ArrayList<Futbolistas> listfutbolistas;
     ArrayList<String> arreglofutbolistas;
 
+    Button btnlvolver;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +39,17 @@ public class ActivityList extends AppCompatActivity
         ArrayAdapter apd = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arreglofutbolistas);
         list.setAdapter(apd);
 
+        btnlvolver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { volver_menu(); }
+        });
+
+    }
+
+    private void volver_menu()
+    {
+        Intent intent = new Intent(this, ActivityOpciones.class);
+        startActivity(intent);
     }
 
     private void ObtenerTabla()
