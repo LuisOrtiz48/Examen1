@@ -33,6 +33,8 @@ public class ActivityIngresar extends AppCompatActivity {
         pais = (Spinner) findViewById(R.id.cmdpais);
         posicion = (Spinner) findViewById(R.id.cmdposicion);
         edad = ( EditText) findViewById(R.id.txtedad);
+        btningresar = (Button) findViewById(R.id.btningresar);
+        btnivolver = (Button) findViewById(R.id.btnivolver);
 
         btningresar.setOnClickListener(new View.OnClickListener(){
             @Override

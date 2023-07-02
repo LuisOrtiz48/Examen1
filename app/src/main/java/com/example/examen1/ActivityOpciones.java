@@ -16,6 +16,8 @@ public class ActivityOpciones extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opciones);
 
+        btnoptingresar = (Button) findViewById(R.id.btnoptingresar);
+        btnlist = (Button) findViewById(R.id.btnlist);
         btnoptingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { page_insertar(); }

@@ -39,6 +39,7 @@ public class ActivityList extends AppCompatActivity
         ArrayAdapter apd = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arreglofutbolistas);
         list.setAdapter(apd);
 
+        btnlvolver = (Button) findViewById(R.id.btnlvolver);
         btnlvolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { volver_menu(); }
