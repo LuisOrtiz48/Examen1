@@ -4,6 +4,8 @@
     <string name="app_titulof">Agregar Futbolista</string>
     <string name="app_nombres">Ingrese el nombre</string>
     <string name="app_apellidos">Ingrese el apellido</string>
+    <string name="app_pais">Ingrese el pais</string>
+    <string name="app_posicion">Ingrese la posicion del jugador</string>
     <string name="app_edad">Ingrese la edad</string>
     <string name="app_titulopais">Ingrese el pais de origen</string>
     <string name="app_tituloposicion">Ingrese la posicion del jugador</string>
