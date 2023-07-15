@@ -82,15 +82,17 @@
 
     <Button
         android:id="@+id/btningresar"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/app_btningresar"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnivolver"
-        android:layout_width="match_parent"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="@string/app_btnvolver"
         android:textStyle="bold" />
 </LinearLayout>
